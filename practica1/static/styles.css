@@ -1,0 +1,47 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  margin-top: 50px;
+}
+
+.module {
+  display: flex;
+  flex-direction: column;
+  background-color: #90ee90;
+  border: 2px solid black;
+  padding: 10px;
+  width: 100%;
+  max-width: 600px;
+  transition: all 0.3s ease;
+}
+
+.module-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.module button {
+  border: 2px solid black;
+  background-color: #90ee90;
+  color: black;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.module-content {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #90ee90;
+}
+
+.module-content input {
+  display: block;
+  width: 100%;
+  background-color: #90ee90;
+  margin-top: 10px;
+  padding: 5px;
+  border: 1px solid black;
+}
